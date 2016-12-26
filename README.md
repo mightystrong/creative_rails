@@ -20,17 +20,38 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'creative_rails'
+# PrettyDocs Rails
+gem 'prettydocs_rails'
 ```
 
-And then execute:
-```bash
-$ bundle
+## Usage
+How to use this plugin.
+
+### Sass
+
+Change your `application.css` to `application.scss`.
+
+```console
+$ mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
 ```
 
-Or install it yourself as:
-```bash
-$ gem install creative_rails
+Then, remove all the `*= require_self` and `*= require_tree .` statements from the sass file. Instead, use `@import` to import Sass files.
+
+Do not use `*= require` in Sass or your other stylesheets will not be [able to access][antirequire] the Bootstrap mixins or variables.
+
+Using [SCSS](http://sass-lang.com/documentation/file.SASS_REFERENCE.html), add this to your
+`application.scss` file:
+
+```scss
+@import "creative";
+```
+
+### JavaScript
+
+Add the following line to your `application.js` file:
+
+```js
+//= require creative
 ```
 
 ## Contributing
