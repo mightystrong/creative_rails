@@ -21,7 +21,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 # PrettyDocs Rails
-gem 'prettydocs_rails'
+gem 'creative_rails'
 ```
 
 ## Usage
