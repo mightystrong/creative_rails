@@ -1,0 +1,3 @@
+module CreativeRails
+  # Your code goes here...
+end
