@@ -1,4 +1,5 @@
+//= require jquery.easing
 //= require bootstrap-sprockets
-//= require jquery.magnific-popup.js
+//= require magnific-popup
 //= require scrollreveal
 //= require creative
