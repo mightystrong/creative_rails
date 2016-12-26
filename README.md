@@ -10,6 +10,7 @@ This is has been tested on the following:
 
 Other dependencies:
 
+* [jquery-rails](https://github.com/rails/jquery-rails) - Packaged with Rails.
 * [Bootstrap Sass](https://github.com/twbs/bootstrap-sass)
 * [Font-Awesome Rails](https://github.com/bokmann/font-awesome-rails)
 
@@ -43,7 +44,7 @@ Using [SCSS](http://sass-lang.com/documentation/file.SASS_REFERENCE.html), add t
 `application.scss` file:
 
 ```scss
-@import "creative";
+@import "creative_rails";
 ```
 
 ### JavaScript
@@ -51,7 +52,7 @@ Using [SCSS](http://sass-lang.com/documentation/file.SASS_REFERENCE.html), add t
 Add the following line to your `application.js` file:
 
 ```js
-//= require creative
+//= require creative_rails
 ```
 
 ## Contributing
