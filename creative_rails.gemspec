@@ -27,4 +27,8 @@ Gem::Specification.new do |s|
   # Font Awesome for Rails - https://github.com/bokmann/font-awesome-rails
   s.add_dependency "font-awesome-rails", '~> 4.7', '>= 4.7.0.1'
   s.add_development_dependency "font-awesome-rails", '~> 4.7', '>= 4.7.0.1'
+
+  s.add_development_dependency 'jquery-rails'
+  s.add_development_dependency 'jquery-ui-rails'
+  s.add_development_dependency 'sass-rails', '~> 5.0'
 end
