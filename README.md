@@ -22,7 +22,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 # PrettyDocs Rails
-gem 'creative_rails'
+gem 'creative_rails', '~> 1.0', '>= 1.0.1'
 ```
 
 ## Usage
@@ -54,6 +54,19 @@ Add the following line to your `application.js` file:
 ```js
 //= require creative_rails
 ```
+
+## Demo
+
+A working demo of the application is located in `test/dummy`. Once you have installed all gems, run the following.
+
+```bash
+$ cd test/dummy
+$ rake db:create
+$ rake db:migrate
+$ rails c
+```
+
+You can download and view Creative [here](http://startbootstrap.com/template-overviews/creative/)
 
 ## Contributing
 * [Michael Price](http://twitter.com/michaeljprice)
