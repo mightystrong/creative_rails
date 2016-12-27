@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    creative_rails (0.1.0)
+    creative_rails (1.0.0)
       bootstrap-sass (~> 3.3, >= 3.3.7)
       font-awesome-rails (~> 4.7, >= 4.7.0.1)
       rails (~> 5.0.1)
