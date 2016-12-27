@@ -14,9 +14,21 @@ Gem::Specification.new do |s|
   s.description = "Start Bootstrap Creative theme adapted for Ruby on Rails."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "VERSIONS.md"]
 
   s.add_dependency "rails", "~> 5.0.1"
 
-  s.add_development_dependency "pg"
+  s.add_development_dependency 'pg', '~> 0.15'
+
+  # Twitter Bootstrap Sass - https://github.com/twbs/bootstrap-sass
+  s.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+  s.add_development_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+
+  # Font Awesome for Rails - https://github.com/bokmann/font-awesome-rails
+  s.add_dependency "font-awesome-rails", '~> 4.7', '>= 4.7.0.1'
+  s.add_development_dependency "font-awesome-rails", '~> 4.7', '>= 4.7.0.1'
+
+  s.add_development_dependency 'jquery-rails'
+  s.add_development_dependency 'jquery-ui-rails'
+  s.add_development_dependency 'sass-rails', '~> 5.0'
 end
