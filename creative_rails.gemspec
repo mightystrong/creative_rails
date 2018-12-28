@@ -16,19 +16,19 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "VERSIONS.md"]
 
-  s.add_dependency "rails", "~> 5.0", ">= 5.0.1"
+  s.add_dependency "rails"
 
-  s.add_development_dependency 'pg', '~> 0.15'
+  s.add_development_dependency 'pg'
 
   # Twitter Bootstrap Sass - https://github.com/twbs/bootstrap-sass
-  s.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
-  s.add_development_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+  s.add_dependency 'bootstrap-sass'
+  s.add_development_dependency 'bootstrap-sass'
 
   # Font Awesome for Rails - https://github.com/bokmann/font-awesome-rails
-  s.add_dependency "font-awesome-rails", '~> 4.7', '>= 4.7.0.1'
-  s.add_development_dependency "font-awesome-rails", '~> 4.7', '>= 4.7.0.1'
+  s.add_dependency "font-awesome-rails"
+  s.add_development_dependency "font-awesome-rails"
 
-  s.add_development_dependency 'jquery-rails', '~> 4.2'
-  s.add_development_dependency 'jquery-ui-rails', '~> 6.0'
-  s.add_development_dependency 'sass-rails', '~> 5.0'
+  s.add_development_dependency 'jquery-rails'
+  s.add_development_dependency 'jquery-ui-rails'
+  s.add_development_dependency 'sass-rails'
 end
